@@ -1,3 +1,3 @@
 # Pop-it
 
-React + ts app with Builder pattern 
+The same React + ts app, but without Builder pattern and with Redux
