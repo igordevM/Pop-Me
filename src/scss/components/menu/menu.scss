@@ -1,0 +1,27 @@
+.menu {
+  margin-left: 5%;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 200px 60px 1fr;
+  font-size: 20px;
+  align-items: end;
+  img {
+    height: 38px;
+    cursor: pointer;
+  }
+  &-points {
+    margin-left: 5px;
+    font-size: 30px;
+  }
+  &-pop {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: grid;
+    @extend %items-center-position;
+    @extend %box-shadow;
+  }
+}

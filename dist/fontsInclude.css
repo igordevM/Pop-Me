@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Arantxa';
+  src:
+    url('./resources/fonts/Arantxa-Regular.eot') format('embedded-opentype'),
+    url('./resources/fonts/Arantxa-Regular.woff') format('woff'),
+    url('./resources/fonts/Arantxa-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Arantxa';
+  src:
+    url('./resources/fonts/Arantxa-Bold.eot') format('embedded-opentype'),
+    url('./resources/fonts/Arantxa-Bold.woff') format('woff'),
+    url('./resources/fonts/Arantxa-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Arantxa';
+  src:
+    url('./resources/fonts/Arantxa-Light.eot') format('embedded-opentype'),
+    url('./resources/fonts/Arantxa-Light.woff') format('woff'),
+    url('./resources/fonts/Arantxa-Light.ttf') format('truetype');
+  font-weight: 300;
+}

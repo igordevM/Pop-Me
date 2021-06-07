@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pop Me</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/fontsInclude.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="apple-touch-icon"  href="resources/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../dist/resources/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../dist/resources/android-chrome-512x512.png">
+    <link rel="icon" href="../dist/resources/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../dist/resources/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../dist/resources/favicon-32x32.png">
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <span class="logo-1">P</span>
+            <a class="logo-2" id="bubble" href="../dist/index.html"></a>
+            <audio src="./popSound.mp3" id="audio"> </audio>
+            <span class="logo-3">p Me</span>
+        </div>
+    </div>
+    <script>
+        const bubble = document.getElementById('bubble');
+        const audio = document.getElementById('audio');
+        bubble.addEventListener('click', () => {
+            bubble.classList.add('popped');
+            audio.play();
+        })
+    </script>
+</body>
+</html>

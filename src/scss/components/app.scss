@@ -1,0 +1,17 @@
+@import "globalStyles";
+@import "main/main";
+@import "bubble/bubble";
+@import "menu/menu";
+
+.app {
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+  font-family: $text-font;
+  color: $text-color;
+  background-color: $bgc;
+  display: grid;
+  grid-template: 50px 1fr / 1fr;
+  align-items: center;
+  @extend %scrollbar;
+}

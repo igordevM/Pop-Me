@@ -1,0 +1,10 @@
+.bubble {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  @extend %bubble-shadow;
+}
+
+.bubble-popped {
+  @extend %pop-shadow;
+}
